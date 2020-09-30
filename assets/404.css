@@ -20,33 +20,14 @@ body {
     color: white;
 }
 
-.links {
-    display: inline-table;
-    width: 500px;
-    color: white;
-}
-
-.links a {
-    text-decoration: none;
-    color: #753fa8;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 4%;
-}
-
-.links a:hover {
-    color: #451770;
-    font-size: 18px;
-}
-
 .home {
     color: white;
     background: #551a8b;
     display: inline-flex;
     margin-top: 2ch;
     padding: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
     cursor: pointer;
     border-radius: 5px;
 }
