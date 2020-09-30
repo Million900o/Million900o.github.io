@@ -3,6 +3,18 @@
     src: url('/fonts/CascadiaCode-Regular.otf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.element::-webkit-scrollbar {
+    width: 0 !important
+}
+
 * {
     text-align: center;
     vertical-align: middle;
@@ -72,19 +84,19 @@ body {
     font-size: 18px;
 }
 
-.projects {
+.BBButton {
     color: white;
     background: #551a8b;
-    display: inline-flex;
+    display: inline-table;
     margin-top: 2ch;
     padding: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
-    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.projects:hover {
+.BBButton:hover {
     transform: translateY(3px);
     background: #451770;
 }

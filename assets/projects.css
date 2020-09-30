@@ -1,0 +1,53 @@
+@font-face {
+    font-family: CascadiaCode-Regular;
+    src: url('/fonts/CascadiaCode-Regular.otf');
+}
+
+* {
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+body {
+    font-family: "CascadiaCode-Regular";
+    background: rgb(38, 38, 38);
+    margin: 0;
+}
+
+.links {
+    margin-top: 220px;
+    display: inline-table;
+    width: 500px;
+    color: white;
+}
+
+.links a {
+    text-decoration: none;
+    color: #753fa8;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 4%;
+}
+
+.links a:hover {
+    color: #451770;
+    font-size: 18px;
+}
+
+.home {
+    color: white;
+    background: #551a8b;
+    display: inline-flex;
+    margin-top: 2ch;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.home:hover {
+    transform: translateY(3px);
+    background: #451770;
+}
