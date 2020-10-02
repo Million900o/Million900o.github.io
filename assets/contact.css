@@ -16,42 +16,40 @@ body {
 }
 
 .title {
+    text-align: center;
     margin-top: 220px;
     color: white;
 }
 
 .links {
-    display: inline-table;
-    width: 400px;
-    color: white;
+    display: inline;
 }
 
 .links a {
     text-decoration: none;
-    color: #753fa8;
+    color: white;
+    background: #551a8b;
     font-weight: bold;
     font-size: 16px;
-    margin: 4%;
+    margin: 1%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .links a:hover {
-    color: #451770;
     font-size: 18px;
 }
 
 .home {
-    color: white;
-    background: #551a8b;
+    color: #551a8b;
     display: inline-flex;
-    margin-top: 2ch;
-    padding: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-top: 3ch;
     cursor: pointer;
     border-radius: 5px;
 }
 
 .home:hover {
+    color: #451770;
     transform: translateY(3px);
-    background: #451770;
 }
